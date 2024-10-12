@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <main>
+        <h1>PESQUISA DE SATISFAÇÃO</h1>
+        <pre>
+
+        </pre>
+        <form action="/submit" method="POST">
+            <label for="name" id="func">Nome do Funcionário:</label>
+            <input 
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu nome"
+            required class="altura1">
+            
+            
+            <br>
+
+
+            <label for="number">Número de Identificação da Empresa:</label>
+            <input type="number" id="number" name="id" min="0" max="100000">
+            
+            
+            <br>
+
+
+            <label for="email" id="email">Email pessoal:</label>
+            <input type="email"
+            id="email"
+            name="email"
+            placeholder="Insira seu email"
+            required class="altura1">
+            
+            
+            <br>
+
+
+            <label for="name" id="tel">Número para Contato:</label>
+            <input type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="Insira seu número"
+            required class="altura1">
+            
+            
+            <br>
+
+
+            <label for="text" id="área">Área em que trabalha:</label>
+            <input 
+            type="text"
+            id="name"
+            name="text"
+            placeholder="Digite sua área"
+            required class="altura1">
+            
+            
+            <br>
+
+
+            <label for="satisfacao">Nivel de Satisfação:</label>
+            <select id="satisfacao" name="satisfacao">
+                <option value="muito insatisfeito">Muito Insatisfeito</option>
+                <option value="insatisfeito">Insatisfeito</option>
+                <option value="satisfeito">Satisfeito</option>
+                <option value="muito satisfeito">Muito Satisfeito</option>
+              </select
+              required class="altura1" >
+              
+              
+              <br>
+
+
+              <label for="tratamento">Nivel de Tratamento na Área Atuante:</label>
+              <select id="satisfacao" name="satisfacao">
+                <option value="muito insatisfeito">Muito Insatisfeito</option>
+                <option value="insatisfeito">Insatisfeito</option>
+                <option value="satisfeito">Satisfeito</option>
+                <option value="muito satisfeito">Muito Satisfeito</option>
+              </select
+              required class="altura1" >
+              
+
+              <br>
+
+
+              <label for="message" id="mudar">Oque gostaria de mudar na empresa?:</label>
+             <textarea name="message" id="message" cols="50" rows="4"></textarea>
+              
+             
+             <br>
+              
+
+              <button>Enviar</button>
+            </form>
+        </main>
+    </body>
+</html>
